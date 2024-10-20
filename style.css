@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 227, 227);
+}
+.container{
+    background-color: rgb(248, 237, 224);
+    margin: 150px 100px 150px 100px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction:row;
+    width:570px
+}
+.account{
+    display: flex;
+    flex-direction:column
+}
+.info{
+    display: flex;
+    flex-direction:column
+}
+.app{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+.small{
+    width: 40px;
+    height:40px;
+    border-radius: 4px;
+    margin:10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.photo{
+    width:100px;
+    height:100px;
+    border-radius:20px
+}
+h2, h4 ,p{
+    margin:3px;
+}
+.sal{
+    width:15px;
+    height:15px;
+    background-color: rgb(248, 237, 224); 
+    margin: 0px 0px 0px 77px
+}
+progress{
+    width: 210px;
+    height:6px;
+    border-radius: 40px;
+    
+}
+progress::-webkit-progress-value{
+    background-color: rgb(246, 154, 17);
+}
+progress::-webkit-progress-bar{
+    background-color: rgb(241, 241, 241);
+}
+.progress-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    background-color: rgb(30, 30, 30);
+    color:white;
+    border:none;
+    padding:7px 16px 7px 16px;
+    border-radius: 3px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin:8px 8px 8px 8px;
+
+}
+.dax{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+.followers{
+    margin:65px 8px 8px 8px;
+}
+.follow{
+    margin:80px 0px 3px 70px;
+}
